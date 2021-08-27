@@ -6,7 +6,7 @@
 // 2. Creo un ciclo While per riempire l'array con meno elemti finche non sara' uguale all'altro
 
 var contenitore1 = ["fiore", "mare", "gatto"];
-var contenitore2 = ["pizza", "coctail", "sonno", "festa", "soldi"];
+var contenitore2 = ["pizza", "coctail", "sonno", "festa", "soldi", "mela", "banana"];
 
 // for (var i = 0; i < contenitore1.length; i++ ){
 //     console.log(i);
@@ -17,11 +17,18 @@ var contenitore2 = ["pizza", "coctail", "sonno", "festa", "soldi"];
 // }
 var coseNuove = 0;
 var contatore = 0;
-while (contenitore1.length  < contenitore2.length){
+while ( contenitore2.length > contenitore1.length ){
     coseNuove = prompt("aggiungi qualcosa per riempire il contenitore");
     contenitore1.push(coseNuove);
-    contatore ++;
 }
 
 alert("Adesso è pieno, grazie")
 alert("Abbiamo: " + contenitore1);
+
+while (contenitore1.length  < contenitore2.length){
+    coseNuove = prompt("aggiungi qualcosa per riempire il contenitore");
+    contenitore2.push(coseNuove);
+}
+
+alert("Adesso è pieno, grazie")
+alert("Abbiamo: " + contenitore2);
