@@ -10,4 +10,5 @@ for (var i = 0; i <=4; i++){
     else if (numero % 2 == 1){
         console.log(numero + 1);
  }
+
 }
