@@ -9,3 +9,4 @@ var listaNumeri = [];
 } 
 console.log(numero*5);
 
+var i = 0;
