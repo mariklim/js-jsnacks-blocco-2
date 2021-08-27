@@ -24,4 +24,4 @@ while (contenitore1.length  < contenitore2.length){
 }
 
 alert("Adesso è pieno, grazie")
-alert("Abbaimo: " + contenitore1);
+alert("Abbiamo: " + contenitore1);
