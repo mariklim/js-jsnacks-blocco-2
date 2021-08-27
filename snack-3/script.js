@@ -10,7 +10,6 @@
 var nomi = ["Mario", "Gigi", "Giuseppe", "Anna", "Lisa"];
 var cognomi = [" Rossi", "Verdi", "Gialli", "Azzurri", "Grassi"];
 
-var nomeCompleto;
 var listaInvitati = [];
 for (var i = 0; i<3; i++ ){
     // console.log("cognome nella lista sono: ");
@@ -27,22 +26,3 @@ for (var i = 0; i<3; i++ ){
     alert("Ciao, " + listaInvitati[i] + ", sei nella lista!")
 }
 
-
-// var item = items[Math.floor(Math.random()*items.length)];
-// var nomi = ["Mario", "Gigi", "Giuseppe", "Anna", "Lisa"]
-// var cognomi = [" Rossi", "Verdi", "Gialli", "Azzurri", "Grassi"]
-
-// for (var i = 0; i<=3; i++){
-//     var nomeCasuale = nomi[Math.floor(Math.random()*nomi.length)];
-// }
-
-// for (var i = 0; i<=3; i++){
-//     var cognomeCasuale = cognomi[Math.floor(Math.random()*cognomi.length)];
-// }
-// var nomeCompleto = nomeCasuale + cognomeCasuale;
-
-// var listaInvitato = [];
-
-// listaInvitato.push(nomeCompleto);
-
-// console.log(listaInvitato);
