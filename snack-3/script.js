@@ -20,19 +20,17 @@
 var nomi = ["Mario", "Gigi", "Giuseppe", "Anna", "Lisa"]
 var cognomi = [" Rossi", "Verdi", "Gialli", "Azzurri", "Grassi"]
 
-for (var i = 0; i < nomi.length; i++){
-    var nomeCasuale = nomi[Math.floor(Math.random()*3)];
-    console.log(nomeCasuale);
+for (var i = 0; i<=3; i++){
+    var nomeCasuale = nomi[Math.floor(Math.random()*nomi.length)];
 }
 
-for (var i = 0; i < nomi.length; i++){
-    var cognomeCasuale = cognomi[Math.floor(Math.random()*3)];
-    console.log(cognomeCasuale);
+for (var i = 0; i<=3; i++){
+    var cognomeCasuale = cognomi[Math.floor(Math.random()*cognomi.length)];
 }
+var nomeCompleto = nomeCasuale + cognomeCasuale;
 
 var listaInvitato = [];
-for (var i = 0; i < 3; i++){
-    var nomeInvitato = nomeCasuale + cognomeCasuale;
-    listaInvitato.push(nomeInvitato);
-}
 
+listaInvitato.push(nomeCompleto);
+
+console.log(listaInvitato);
