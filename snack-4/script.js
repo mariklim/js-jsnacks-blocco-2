@@ -14,7 +14,7 @@ for (var i = 0; i< numeriInteri.length; i++ ){
     // console.log(numeriInteri[i]);
     if (i % 2 == 1){
         console.log(numeriInteri[i])
-        alert("Abbiamo trovato i numeri con la posizione dispari e sono: " + numeriInteri[i]);
+        alert("Abbiamo trovato i numeri con la posizione dispari, ecco: " + numeriInteri[i]);
         sommaDispari = sommaDispari + numeriInteri[i];
     }
 }
