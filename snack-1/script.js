@@ -10,3 +10,10 @@ var listaNumeri = [];
 console.log(numero*5);
 
 var i = 0;
+while (i<5){
+    var numero = parseInt(prompt("Inserisci un numero"));
+    i++;
+    listaNumeri.push(numero);  
+}
+
+console.log(numero*5);
