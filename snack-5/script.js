@@ -17,7 +17,7 @@ var contenitore2 = ["pizza", "coctail", "sonno", "festa", "soldi"];
 // }
 var coseNuove = 0;
 var contatore = 0;
-while (contenitore1.length  <= contenitore2.length){
+while (contenitore1.length  < contenitore2.length){
     coseNuove = prompt("aggiungi qualcosa per riempire il contenitore");
     contenitore1.push(coseNuove);
     contatore ++;
